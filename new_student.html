@@ -1,0 +1,119 @@
+<html>
+    <head> 
+   <title> 20202291 - home page </title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+
+   </head>
+<body>
+
+    <nav> 
+        <ul>
+          <li> <a href="index.html" > Home </a> </li>
+          <li> <a href="studentlist.html"> Student List </a> </li>
+          <li> <a href="new_student.html" class="active">&nbsp; New Student </a> </li>
+      
+          <li class="nav-right  "> <a href="sign.html">&nbsp; logout </a> </li>
+        </ul> 
+      <nav>
+<hr/>
+<!--section-->
+<h1 class="title">   New Student</h1>
+<form action="#" method="get">
+    <!-- personal information-->
+    <fieldset>
+        <legend> Personal information </legend>
+<p>
+<label>
+
+Full Name:
+<input type="tel" name="txtfullname">
+
+</label>
+<p>
+<label>
+    Birthdate:
+    <input type="date" name="txtBirthDate">
+
+    </label>
+</p>
+<p>
+    <label>
+        Gender:
+        <input type="radio" name="Gender" value="male">
+    male 
+    <input type="radio" name="Gender" value="Female">
+    Female
+   </label>
+       
+    </p>
+</fieldset>
+<!--personal information-->
+
+<!--Contact Info-->
+<fieldset>
+    <legend> Contact info </legend>
+<p>
+<label>
+Email:
+<input type="email" name="txtEmail">
+
+</label>
+</p>
+<p>
+    <label>
+    Phone:
+    <input type="number" name="txtPhone">
+    
+    </label>
+    </p>
+<p>
+        <label>
+             Addres:
+             <textarea rows="5" cols="100" name="txtAddress"> </textarea>
+        </label>
+        </p>
+</fieldset>
+<!--Contact Info-->
+
+<!--University Info-->
+<fieldset>
+    <legend> University info </legend>
+        <p>
+            <label>
+                choose Your Faculty:
+                <select name="Faculty">
+<option value="FCS">Faculty of Computer Science
+</option>
+<option value="FCIT">Faculty of Computers and Information Technology
+</option>
+<option value="FCP">Faculty of Pharmacy
+</option>
+<option value="FCC">Faculty of Commerce
+</option>
+<option value="FCA">Faculty of Astronomy
+</option>
+<option value="FCFMI">Faculty of Financial Markets and Institutions
+</option>
+<option value="FCE">Faculty of Engineering
+</option>
+
+
+                </select>
+</label></p>
+</fieldset>
+
+<input type="submit" class="button" value="Add" >
+
+</form>
+
+<!--section-->
+<hr/>
+<!--footer-->
+<a href="https://www.fue.edu.eg" target="_blank">&copy; Future University in Egypt </a>&nbsp; &dash;
+<a href="mailto:20202291@fue.edu.eg"> Contact Us </a>
+<!--footer-->
+
+</body>
+
+</html>
